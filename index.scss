@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: blanchedalmond; */
+    color:#333;
+    margin: 0;
+    padding: 40px 20px;}
+
+.continer01{
+    max-width: 900px;
+    margin: auto;
+     padding:40px;
+ justify-items: center;
+  flex-direction: row;
+  /* margin-bottom: 60px; */
+
+}
+
+h2{
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+  margin-bottom: 30px;
+  font-weight: bold;
+   align-items:flex-start;
+}
+
+.Post-card-01 {
+display: flex;
+align-items: flex-start;
+ background-color: #fff;
+  gap: 50px;
+ overflow: hidden;
+ max-width: 900px;
+ float: right;
+ margin-bottom: 50px;
+ /* margin-right: 2px; */
+ flex-wrap: wrap;
+justify-content: space-around;
+}
+  
+.post-img-01{ 
+   width:300px;
+ height: auto;
+ object-fit: cover;
+border-radius: 2px;
+ }
+
+
+
+ .post-content{
+ padding: 24px;
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+ width: 55%;
+ }
+
+ .category {
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: #9308a0;
+ font-size: 16px;
+ text-transform: uppercase;
+  font-weight: bold;
+letter-spacing: 2px;
+ margin-bottom: 10px;
+ padding: 10px;
+
+  // flex: 1;
+  display: flex;
+  justify-content:left;
+   /* align-items: center; */
+ float: left;
+  margin-right: 100px;
+ }
+
+ .post-title {
+ font-size: 28px;
+ font-weight: bold;
+color: #333;
+margin: 0  0  10px;
+ }
+
+ .post-description{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+ line-height: 1.6;
+  color: #666;
+ }
+
+  hr{
+  border: none;
+  border-top: 2px solid #eee;
+  margin: 30px 0;
+ }
+
+
+
+ .Post-card-02 {
+display: flex;
+align-items: flex-start;
+ background-color: #fff;
+ border-radius: 8px;
+  gap: 50px;
+ overflow: hidden;
+ max-width: 900px;
+ float: right;
+ margin-bottom: 40px;
+ flex-wrap: wrap;
+justify-content: space-around;
+}
+  
+.post-img-02{ 
+   width:300px;
+ height: auto;
+ object-fit: cover;
+border-radius: 2px;
+ }
